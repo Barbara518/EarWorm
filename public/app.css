@@ -1,0 +1,50 @@
+* {
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arvo', serif;
+}
+
+input{
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  height: 4em;
+  border: none;
+  text-align: center;
+  border-bottom: 2px solid steelblue;
+  opacity: .5;
+  transition: opacity 0.5s ease;
+  margin-bottom: 2em;
+}
+
+input:hover{
+  opacity: 1;
+}
+
+main.data {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+div.track {
+  height: 450px;
+  width: 300px;
+  text-align: center;
+  border: .5px solid grey;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: background-color 0.8s ease;
+}
+
+div.track:hover {
+  background-color: lightgrey;
+}
+
+h3 {
+  background-color: inherit;
+  color: steelblue;
+  font-weight: bold;
+}
